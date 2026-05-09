@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "step1-cli": "ts-node src/step1/entity/StoryAssistant.ts",
+    "step2-cli": "ts-node src/step2/StoryAssistant.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,12 +13,12 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@types/node": "^25.6.0",
     "readline-sync": "^1.4.10",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   },
   "devDependencies": {
+    "@types/node": "^25.6.2",
     "@types/readline-sync": "^1.4.8"
   }
 }
