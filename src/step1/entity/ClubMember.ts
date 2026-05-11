@@ -6,7 +6,7 @@ class ClubMember {
     name: string = '';
     nickname: string = ''
     phoneNumber: string = ''
-    birthday: string = ''
+    birthDay: string = ''
     role: RoleInClub = RoleInClub.Memeber;
 
     constructor(email: string, name: string, phoneNumber: string){
