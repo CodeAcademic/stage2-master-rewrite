@@ -37,7 +37,7 @@ class ClubWindow {
 
                 console.log('\n> Registered club --> ', newClub);
             } catch (e) {
-                console.error(`Error: ${e.message}`);
+                console.error(`Error: ${(e as Error).message}`);
             }
         }
         return newClub;
@@ -137,7 +137,7 @@ class ClubWindow {
             this.clubCoordinator.modify(newName, newIntro, targetClub.foundedDate);
             console.log('\n> Club changed: ', targetClub);
         } catch (e) {
-            console.error(`Error: ${e.message}`);
+            console.error(`Error: ${(e as Error).message}`);
         }
         return targetClub;
     }
