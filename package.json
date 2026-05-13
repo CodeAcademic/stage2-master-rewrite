@@ -7,6 +7,7 @@
     "step1-cli": "ts-node src/step1/entity/StoryAssistant.ts",
     "step2-cli": "ts-node src/step2/StoryAssistant.ts",
     "step3-cli": "ts-node src/step3/StoryAssistant.ts",
+    "step4-cli": "ts-node src/step4/StoryAssistant.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
